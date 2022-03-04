@@ -13,7 +13,7 @@ public class Login_Logout extends StartBrowser{
 	public void Login_LogoutTestCase() throws Exception {
 		CommonFunctions cfs = new CommonFunctions();
 		ActionDriver ad =  new ActionDriver();
-		cfs.login("greeshmasona3@gmail.com","HappyTAF@111");
+		cfs.login("testingautomation40@gmail.com","Test@111");
 		//verify logged in successfully
 		boolean status=ad.isElementPresent(HomePage.lnkLogout, "LogoutLink");
 		Assert.assertTrue(status);
